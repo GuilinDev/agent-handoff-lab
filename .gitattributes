@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.mp4 binary
+*.woff2 binary
+# Preserve the upstream distribution without reformatting its license header.
+videos/handoff-eval/assets/gsap.min.js -whitespace

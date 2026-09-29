@@ -1,0 +1,397 @@
+{
+  "mode": "scripted",
+  "repeats": 5,
+  "runs": [
+    {
+      "id": "20260929T030726668281Z-scripted-normal",
+      "condition": "normal",
+      "repetition": 1,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 5,
+      "actions": 25,
+      "failed_actions": 0,
+      "wait_actions": 15,
+      "verified_transfers": 5,
+      "transfer_attempts": 5,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030739316153Z-scripted-partial-delivery",
+      "condition": "partial-delivery",
+      "repetition": 1,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 7,
+      "actions": 35,
+      "failed_actions": 1,
+      "wait_actions": 22,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030755280857Z-scripted-delayed-request",
+      "condition": "delayed-request",
+      "repetition": 1,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 9,
+      "actions": 45,
+      "failed_actions": 1,
+      "wait_actions": 32,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030814223537Z-scripted-normal",
+      "condition": "normal",
+      "repetition": 2,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 5,
+      "actions": 25,
+      "failed_actions": 0,
+      "wait_actions": 15,
+      "verified_transfers": 5,
+      "transfer_attempts": 5,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030826581691Z-scripted-partial-delivery",
+      "condition": "partial-delivery",
+      "repetition": 2,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 8,
+      "actions": 40,
+      "failed_actions": 2,
+      "wait_actions": 26,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030842724939Z-scripted-delayed-request",
+      "condition": "delayed-request",
+      "repetition": 2,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 9,
+      "actions": 45,
+      "failed_actions": 1,
+      "wait_actions": 32,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030859086405Z-scripted-normal",
+      "condition": "normal",
+      "repetition": 3,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 5,
+      "actions": 25,
+      "failed_actions": 0,
+      "wait_actions": 15,
+      "verified_transfers": 5,
+      "transfer_attempts": 5,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030909983058Z-scripted-partial-delivery",
+      "condition": "partial-delivery",
+      "repetition": 3,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 7,
+      "actions": 35,
+      "failed_actions": 1,
+      "wait_actions": 22,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030924869323Z-scripted-delayed-request",
+      "condition": "delayed-request",
+      "repetition": 3,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 9,
+      "actions": 45,
+      "failed_actions": 1,
+      "wait_actions": 32,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030943285226Z-scripted-normal",
+      "condition": "normal",
+      "repetition": 4,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 5,
+      "actions": 25,
+      "failed_actions": 0,
+      "wait_actions": 15,
+      "verified_transfers": 5,
+      "transfer_attempts": 5,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T030955518423Z-scripted-partial-delivery",
+      "condition": "partial-delivery",
+      "repetition": 4,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 7,
+      "actions": 35,
+      "failed_actions": 1,
+      "wait_actions": 22,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T031011431304Z-scripted-delayed-request",
+      "condition": "delayed-request",
+      "repetition": 4,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 9,
+      "actions": 45,
+      "failed_actions": 1,
+      "wait_actions": 32,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T031030451900Z-scripted-normal",
+      "condition": "normal",
+      "repetition": 5,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 5,
+      "actions": 25,
+      "failed_actions": 0,
+      "wait_actions": 15,
+      "verified_transfers": 5,
+      "transfer_attempts": 5,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T031042811070Z-scripted-partial-delivery",
+      "condition": "partial-delivery",
+      "repetition": 5,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 7,
+      "actions": 35,
+      "failed_actions": 1,
+      "wait_actions": 22,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    },
+    {
+      "id": "20260929T031058557884Z-scripted-delayed-request",
+      "condition": "delayed-request",
+      "repetition": 5,
+      "status": "passed",
+      "passed": true,
+      "newly_crafted": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "final_items": {
+        "pickaxe": 1,
+        "axe": 1,
+        "sword2": 1
+      },
+      "all_alive": true,
+      "rounds": 9,
+      "actions": 45,
+      "failed_actions": 1,
+      "wait_actions": 32,
+      "verified_transfers": 6,
+      "transfer_attempts": 6,
+      "tokens": {},
+      "scope": "Task 46 inspired fixture; not official benchmark SR or CCE"
+    }
+  ],
+  "interpretation": "Fixed-policy repetitions validate instrumentation; they do not estimate LLM capability."
+}

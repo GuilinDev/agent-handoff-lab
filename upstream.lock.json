@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/openagents-org/agentworld.git",
+  "commit": "df5237da96a3ef00f602950baa362d14d3a618fe",
+  "branch": "develop",
+  "task": "data_v0.1_multi/v1.3_benchmark/task_46_mining_expedition.yaml",
+  "license": "MPL-2.0",
+  "description": "Task 46 inspired engineering fixture; not an official benchmark reproduction."
+}

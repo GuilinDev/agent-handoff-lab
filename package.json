@@ -1,0 +1,17 @@
+{
+  "name": "agent-handoff-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Auditable multi-agent handoffs in a real AgentWorld game engine",
+  "scripts": {
+    "setup": "node scripts/bootstrap.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dashboard": "node scripts/server.mjs",
+    "demo": "python -m lab.run --mode scripted --condition normal",
+    "experiment": "python -m lab.run --mode scripted --suite --repeats 5",
+    "test": "python -m unittest discover -s tests -v"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
