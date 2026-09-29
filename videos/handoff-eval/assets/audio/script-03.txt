@@ -1,0 +1,1 @@
+I capped one coal delivery, then delayed a coordination message. The trace shows exactly where work stalls: five coal are missing.

@@ -84,16 +84,17 @@ One partial-delivery run hit an additional engine crafting cooldown. All failure
 
 ## Video
 
-Source: [`videos/handoff-eval/`](videos/handoff-eval/). Local footage and screenshots are included so the composition is self-contained. FFmpeg and HyperFrames' browser dependencies are needed to render.
+Source: [`videos/handoff-eval/`](videos/handoff-eval/). Local footage, screenshots, and synthetic English narration are included. The audio edition adds soft licensed Pixabay music; download the track as described in [audio sources](videos/handoff-eval/assets/audio/LICENSE-SOURCE.md) before rendering a fresh clone. The stock MP3 is not redistributed in Git. FFmpeg and HyperFrames' browser dependencies are also needed.
 
 ```sh
 cd videos/handoff-eval
+npm ci
 npm run check
-npx --yes hyperframes@0.8.90 preview --background
-npm run render
+npx --yes hyperframes@0.8.91 preview --background
+npm run render -- --quality delivery --output ../../artifacts/agent-handoff-lab-v1-audio.mp4
 ```
 
-The local delivery file is `artifacts/agent-handoff-lab-v1.mp4` when supplied with this working directory; encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline.
+Local delivery files are `artifacts/agent-handoff-lab-v1-audio.mp4` (English AI narration and music) and the preserved `artifacts/agent-handoff-lab-v1.mp4` (silent original). Encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline. Narration scripts and measured timings are in [NARRATION.md](videos/handoff-eval/NARRATION.md).
 
 ## Project boundaries
 

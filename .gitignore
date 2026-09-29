@@ -13,9 +13,11 @@ videos/**/node_modules/
 videos/**/.hyperframes/
 videos/**/.media/
 videos/**/.thumbnails/
+videos/**/.waveform-cache/
 videos/**/*.mp4
 videos/**/*.webm
 !videos/**/assets/real-game.mp4
+/videos/handoff-eval/assets/audio/pixabay-554832.mp3
 videos/**/snapshots/
 videos/**/renders/
 *.log
