@@ -23,3 +23,11 @@ Suggested credit: Music: “Ambient Piano Ambient Technology” by AudioDollar, 
 The four `voice-*.wav` files were generated locally with HyperFrames 0.8.91 using Kokoro-82M, voice `am_michael`, English, speed 0.9. The original scripts are included alongside them. These are synthetic speech; no person's voice was cloned.
 
 The composition applies a shared gentle compressor and peak ceiling to the narration, and carves the music against the `voiceover` group. All processing remains editable in HyperFrames.
+
+## Gameplay edition v2
+
+The six `demo-voice-*.wav` files use local Kokoro-82M `am_michael`, English, speed 1.0, via HyperFrames 0.8.91 / kokoro-onnx 0.6.1.
+
+The six current `zh-voice-*.wav` files use Microsoft Edge's online TTS service, accessed with edge-tts 7.2.8, stock Mandarin voice `zh-CN-YunyangNeural` (云扬), normal rate `+0%`. The user requested this replacement after rejecting the initial Kokoro Chinese voice. They were generated from the included scripts on 2026-09-29; MP3 responses were decoded to mono 24 kHz PCM WAV without changing speed. No voice model is redistributed and no voice cloning is used. The project's MIT license does not relicense Microsoft's service or voice technology.
+
+The Chinese version keeps the English on-screen labels. Both edits use the same licensed Pixabay track, separately carved against their narration. Exact placement and durations are recorded in `../../NARRATION.md` and `../zh-voice-source.json`.

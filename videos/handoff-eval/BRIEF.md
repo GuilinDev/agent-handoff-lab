@@ -28,3 +28,7 @@ Local game footage, dashboard captures and trace JSON produced by this project. 
 
 ## Customizations
 Use the real run's resource flow and verified inventory changes. End with a research question about evaluation at the handoff level.
+
+## Gameplay revision — 2026-09-29
+
+User note: “我感觉游戏截图/视频太少了 趣味性不够，‘实操’的感觉不强”. Replace the presentation-led edit with a gameplay-led replay. Keep the 50-second duration, English AI narration, and licensed music. Increase visible game footage from 12 to 42 seconds, enlarge the party, and bring actual inventory deltas, the missing-coal error, delayed message, recovery, and three crafted outputs onto the gameplay. Clearly label these as trace overlays on edited recorded gameplay; do not fabricate native game UI, model reasoning, navigation, or gathering. Condense the comparison to the final eight seconds. Preserve both v1 MP4s and render a new v2 file.

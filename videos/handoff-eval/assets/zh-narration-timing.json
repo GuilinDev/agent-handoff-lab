@@ -1,0 +1,62 @@
+[
+  {
+    "clip": 1,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 4.752,
+    "text": "五个智能体，三件工具。一次交接出了问题。",
+    "start": 0.1
+  },
+  {
+    "clip": 2,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 6.384,
+    "text": "铁矿、煤和木材，交给冶炼者和铁匠。目标是造出三件工具。",
+    "start": 6.1
+  },
+  {
+    "clip": 3,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 6.384,
+    "text": "请求十份煤，实际只交付五份。第一批成功了，下一批却缺煤了。",
+    "start": 14.1
+  },
+  {
+    "clip": 4,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 7.392,
+    "text": "冶炼者请求补煤。我把消息延迟了三个回合。消息送达后，生产才继续。",
+    "start": 23.1
+  },
+  {
+    "clip": 5,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 6.84,
+    "text": "看库存：新的铁锭、斧头，还有最后一把剑。三件产物，都有证据。",
+    "start": 34.1
+  },
+  {
+    "clip": 6,
+    "voice": "zh-CN-YunyangNeural",
+    "provider": "Edge TTS",
+    "locale": "zh-CN",
+    "rate": "+0%",
+    "duration": 6.6,
+    "text": "十五次都成功了，交接的代价却不同。所以，评估还要看完成的过程。",
+    "start": 42.1
+  }
+]

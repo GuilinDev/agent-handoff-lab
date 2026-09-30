@@ -14,7 +14,7 @@ A small, inspectable team-evaluation workbench built on the real [AgentWorld](ht
 - Three conditions: normal delivery, partial coal delivery, and partial delivery with delayed coordination messages.
 - Actual before/after inventory snapshots, replay controls, error inspection, downloadable JSON, and comparison of repeated runs.
 - A verifier that requires newly crafted outputs **and** corresponding material consumption; initial inventory and agent self-reports cannot pass it.
-- A 50-second HyperFrames composition using real game footage, real dashboard screenshots, and measured results.
+- A 50-second HyperFrames video: 42 seconds of real game footage with verified trace overlays, followed by measured results. English and Chinese AI narration editions are provided locally.
 - [Experimental method and limits](docs/METHODS.md), [LinkedIn draft](docs/LINKEDIN.md), and [中文上手说明](docs/QUICKSTART.zh-CN.md).
 
 ## Run locally
@@ -84,17 +84,22 @@ One partial-delivery run hit an additional engine crafting cooldown. All failure
 
 ## Video
 
-Source: [`videos/handoff-eval/`](videos/handoff-eval/). Local footage, screenshots, and synthetic English narration are included. The audio edition adds soft licensed Pixabay music; download the track as described in [audio sources](videos/handoff-eval/assets/audio/LICENSE-SOURCE.md) before rendering a fresh clone. The stock MP3 is not redistributed in Git. FFmpeg and HyperFrames' browser dependencies are also needed.
+Source: [`videos/handoff-eval/`](videos/handoff-eval/). Local footage, item sprites, screenshots, and synthetic English/Chinese narration are included. Both editions use soft licensed Pixabay music; download the track as described in [audio sources](videos/handoff-eval/assets/audio/LICENSE-SOURCE.md) before rendering a fresh clone. The stock MP3 is not redistributed in Git. FFmpeg and HyperFrames' browser dependencies are also needed.
 
 ```sh
 cd videos/handoff-eval
 npm ci
 npm run check
 npx --yes hyperframes@0.8.91 preview --background
-npm run render -- --quality delivery --output ../../artifacts/agent-handoff-lab-v1-audio.mp4
+npm run render -- --quality delivery --output ../../artifacts/agent-handoff-lab-v2-en.mp4
+npx --yes hyperframes@0.8.91 render -c variants/index-zh.html --quality delivery --output ../../artifacts/agent-handoff-lab-v2-zh-yunyang.mp4
 ```
 
-Local delivery files are `artifacts/agent-handoff-lab-v1-audio.mp4` (English AI narration and music) and the preserved `artifacts/agent-handoff-lab-v1.mp4` (silent original). Encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline. Narration scripts and measured timings are in [NARRATION.md](videos/handoff-eval/NARRATION.md).
+Local delivery files are `artifacts/agent-handoff-lab-v2-en.mp4` and `artifacts/agent-handoff-lab-v2-zh-yunyang.mp4`. The Chinese edition uses Edge TTS Mandarin 云扬 (`zh-CN-YunyangNeural`), at normal speech rate. Both use the same 50-second picture edit with English on-screen labels. The previous `agent-handoff-lab-v1-audio.mp4` and silent `agent-handoff-lab-v1.mp4` are preserved. Encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline. Narration scripts and measured timings are in [NARRATION.md](videos/handoff-eval/NARRATION.md).
+
+The moving resource icons, inventory panels, and focus boxes are **editorial trace overlays**, generated from the saved run; they are not native game trading animations or a recording of LLM reasoning. This fixture prepositions the characters and supplies materials. No new navigation or gathering capability is implied by the edit.
+
+`scripts/build-gameplay-video.py` bakes the selected engine events and measured suite into the scene source. To regenerate Mandarin speech, install `edge-tts==7.2.8` in a local Python environment, then run `scripts/generate-chinese-voiceover.py` (network access required). `scripts/build-chinese-voiceover.py` creates the alternate audio entrypoint. After changing scripts/timing and rebuilding, re-run the HyperFrames voiceover carve separately for each language, then check and render. The carve helper resolves media relative to its HTML file: for Chinese, copy `variants/index-zh.html` to a temporary HTML file in the project root, run the helper on that copy, then move it back to `variants/index-zh.html` before checking. HyperFrames render resolves the variant’s assets from the project root. Keep only one root entrypoint so preview does not discover duplicate audio. Normal re-renders of the checked-in compositions need no rebuilding or TTS runtime.
 
 ## Project boundaries
 

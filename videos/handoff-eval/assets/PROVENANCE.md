@@ -9,3 +9,11 @@
 - `audio/pixabay-554832.mp3`: licensed AudioDollar piano/ambient track, excluded from Git. See audio/LICENSE-SOURCE.md for the original page, license, checksum, and restoration instructions.
 
 Game imagery belongs to the AgentWorld / Kaetram attribution chain. See the root THIRD_PARTY.md. These assets were adopted into HyperFrames' local media ledger; the ledger is a generated local file rather than the canonical attribution record.
+
+## Gameplay edition v2
+
+- `game-session.mp4`: 38-second excerpt, source seconds 20–58, from the same original 59.28-second local recording used for v1. Encoded from that source as H.264 / 25 fps / CRF 17, with a keyframe each second for reliable preview seeking. The edit crops and reuses selected source ranges. It does not add synthetic character actions or alter game pixels.
+- `items/*.png`: unmodified item sprites from the pinned AgentWorld client `public/img/sprites/items/`. They retain upstream attribution and licensing.
+- `demo-evidence.json`: selected actual events from run `20260929T031527021009Z-scripted-delayed-request`, plus narration timing. The video uses editorially timed trace overlays, not a frame-synchronized capture of native game telemetry. Resource icons moving between roles represent verified inventory changes; they are not native trade animations.
+- `audio/demo-voice-*.wav`: English Kokoro `am_michael`, speed 1.0. `audio/zh-voice-*.wav`: Mandarin Edge TTS `zh-CN-YunyangNeural` (云扬), normal rate `+0%`; actual timing and synthesis settings recorded in NARRATION.md. Scripts are included.
+- The registry `telemetry-hud` readout structure informed the overlay layout. Its placeholder values and scrambling effects are not used. The reference component remains in `compositions/components/`.

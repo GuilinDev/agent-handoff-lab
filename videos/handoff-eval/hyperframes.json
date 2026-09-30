@@ -15,6 +15,11 @@
       "name": "animated-bar-chart",
       "type": "hyperframes:component",
       "target": "compositions/components/animated-bar-chart.html"
+    },
+    {
+      "name": "telemetry-hud",
+      "type": "hyperframes:component",
+      "target": "compositions/components/telemetry-hud.html"
     }
   ]
 }

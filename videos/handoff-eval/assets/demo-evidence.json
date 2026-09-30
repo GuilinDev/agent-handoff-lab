@@ -1,0 +1,1542 @@
+{
+  "source_run": "20260929T031527021009Z-scripted-delayed-request",
+  "editing": "Editorial cuts and trace overlays; not synchronized raw UI telemetry. No simulated gameplay or model reasoning.",
+  "events": [
+    {
+      "id": 2,
+      "round": 1,
+      "actor": "coal",
+      "action": "transfer",
+      "args": {
+        "target": "smelter",
+        "item": "coal",
+        "count": 10
+      },
+      "elapsed_s": 2.875,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 10
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {
+            "logs": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 10
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "intervention": "First coal handoff capped at 5; remaining coal stays with supplier",
+      "result": {
+        "status": "success",
+        "message": "Delivered 5 coal to smelter",
+        "verified_count": 5
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {
+            "logs": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 10,
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 0
+    },
+    {
+      "id": 4,
+      "round": 1,
+      "actor": "smelter",
+      "action": "craft",
+      "args": {
+        "item": "ironbar",
+        "count": 5
+      },
+      "elapsed_s": 4.453,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 10,
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "logs": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Crafted 5x ironbar using Smelting skill",
+        "details": {
+          "skill": "Smelting",
+          "itemKey": "ironbar",
+          "count": 5
+        },
+        "verified_crafted": 5
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironbar": 5,
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "logs": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 5
+    },
+    {
+      "id": 10,
+      "round": 2,
+      "actor": "smith",
+      "action": "craft",
+      "args": {
+        "item": "pickaxe",
+        "count": 1
+      },
+      "elapsed_s": 9.25,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "logs": 2,
+            "ironbar": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Crafted 1x pickaxe using Smithing skill",
+        "details": {
+          "skill": "Smithing",
+          "itemKey": "pickaxe",
+          "count": 1
+        },
+        "verified_crafted": 1
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 1
+    },
+    {
+      "id": 14,
+      "round": 3,
+      "actor": "smelter",
+      "action": "craft",
+      "args": {
+        "item": "ironbar",
+        "count": 5
+      },
+      "elapsed_s": 12.563,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "error",
+        "message": "Missing required materials",
+        "missingMaterials": [
+          {
+            "key": "coal",
+            "name": "Coal",
+            "required": 5,
+            "available": 0,
+            "missing": 5
+          }
+        ],
+        "requirements": [
+          {
+            "key": "ironore",
+            "name": "Iron Ore",
+            "count": 5
+          },
+          {
+            "key": "coal",
+            "name": "Coal",
+            "count": 5
+          }
+        ]
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 0
+    },
+    {
+      "id": 19,
+      "round": 4,
+      "actor": "smelter",
+      "action": "chat",
+      "args": {
+        "target": "coal",
+        "message": "Need 5 more coal to finish the second batch. Please transfer your reserve to smelter."
+      },
+      "elapsed_s": 16.438,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "intervention": "Coordination message delayed by 3 rounds",
+      "result": {
+        "status": "success",
+        "message": "Message accepted for delivery"
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 0
+    },
+    {
+      "id": 32,
+      "round": 7,
+      "actor": "coal",
+      "action": "transfer",
+      "args": {
+        "target": "smelter",
+        "item": "coal",
+        "count": 5
+      },
+      "elapsed_s": 25.047,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Delivered 5 coal to smelter",
+        "verified_count": 5
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5,
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 0
+    },
+    {
+      "id": 34,
+      "round": 7,
+      "actor": "smelter",
+      "action": "craft",
+      "args": {
+        "item": "ironbar",
+        "count": 5
+      },
+      "elapsed_s": 26.453,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironore": 5,
+            "coal": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Crafted 5x ironbar using Smelting skill",
+        "details": {
+          "skill": "Smelting",
+          "itemKey": "ironbar",
+          "count": 5
+        },
+        "verified_crafted": 5
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironbar": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 5
+    },
+    {
+      "id": 39,
+      "round": 8,
+      "actor": "smelter",
+      "action": "transfer",
+      "args": {
+        "target": "smith",
+        "item": "ironbar",
+        "count": 5
+      },
+      "elapsed_s": 30.563,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {
+            "ironbar": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Delivered 5 ironbar to smith",
+        "verified_count": 5
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1,
+            "ironbar": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 0
+    },
+    {
+      "id": 40,
+      "round": 8,
+      "actor": "smith",
+      "action": "craft",
+      "args": {
+        "item": "axe",
+        "count": 1
+      },
+      "elapsed_s": 31.344,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "logs": 1,
+            "ironbar": 5
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Crafted 1x axe using Smithing skill",
+        "details": {
+          "skill": "Smithing",
+          "itemKey": "axe",
+          "count": 1
+        },
+        "verified_crafted": 1
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "axe": 1,
+            "ironbar": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 1
+    },
+    {
+      "id": 45,
+      "round": 9,
+      "actor": "smith",
+      "action": "craft",
+      "args": {
+        "item": "sword2",
+        "count": 1
+      },
+      "elapsed_s": 35.422,
+      "before": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "hilt2": 1,
+            "pickaxe": 1,
+            "axe": 1,
+            "ironbar": 2
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "result": {
+        "status": "success",
+        "message": "Crafted 1x sword2 using Smithing skill",
+        "details": {
+          "skill": "Smithing",
+          "itemKey": "sword2",
+          "count": 1
+        },
+        "verified_crafted": 1
+      },
+      "after": {
+        "iron": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_iron"
+        },
+        "coal": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 33,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_coal"
+        },
+        "wood": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 89,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_wood"
+        },
+        "smelter": {
+          "inventory": {},
+          "hp": 1419,
+          "location": {
+            "x": 87,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smelter"
+        },
+        "smith": {
+          "inventory": {
+            "sword2": 1,
+            "pickaxe": 1,
+            "axe": 1
+          },
+          "hp": 1419,
+          "location": {
+            "x": 91,
+            "y": 36,
+            "regionId": 1,
+            "mapName": "World"
+          },
+          "username": "lab_smith"
+        }
+      },
+      "verified_crafted": 1
+    }
+  ],
+  "narration": [
+    {
+      "scene": "demo-hook",
+      "start": 0.2,
+      "duration": 3.52,
+      "text": "Five agents. Three tools. One broken handoff."
+    },
+    {
+      "scene": "demo-party",
+      "start": 6.2,
+      "duration": 5.013333333333334,
+      "text": "Iron, coal, and wood feed the smelter and smith. The goal: three new tools."
+    },
+    {
+      "scene": "demo-coal",
+      "start": 14.2,
+      "duration": 6.506666666666667,
+      "text": "Ten coal requested. Only five delivered. The first batch works. Then the smelter runs out."
+    },
+    {
+      "scene": "demo-recovery",
+      "start": 23.2,
+      "duration": 7.1466666666666665,
+      "text": "The smelter asks for more coal. I delay that message by three rounds. When it arrives, production resumes."
+    },
+    {
+      "scene": "demo-finish",
+      "start": 34.2,
+      "duration": 6.08,
+      "text": "Watch the inventory: new bars, an axe, and the final sword. Three verified outputs."
+    },
+    {
+      "scene": "demo-result",
+      "start": 42.2,
+      "duration": 6.485333333333333,
+      "text": "All fifteen runs succeeded. The handoff cost changed. That's why I evaluate the process, too."
+    }
+  ]
+}
