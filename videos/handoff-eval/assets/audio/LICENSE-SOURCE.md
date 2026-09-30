@@ -31,3 +31,9 @@ The six `demo-voice-*.wav` files use local Kokoro-82M `am_michael`, English, spe
 The six current `zh-voice-*.wav` files use Microsoft Edge's online TTS service, accessed with edge-tts 7.2.8, stock Mandarin voice `zh-CN-YunyangNeural` (云扬), normal rate `+0%`. The user requested this replacement after rejecting the initial Kokoro Chinese voice. They were generated from the included scripts on 2026-09-29; MP3 responses were decoded to mono 24 kHz PCM WAV without changing speed. No voice model is redistributed and no voice cloning is used. The project's MIT license does not relicense Microsoft's service or voice technology.
 
 The Chinese version keeps the English on-screen labels. Both edits use the same licensed Pixabay track, separately carved against their narration. Exact placement and durations are recorded in `../../NARRATION.md` and `../zh-voice-source.json`.
+
+## Continuous narration edition v3
+
+`v3-en-voice.wav` is local Kokoro-82M `am_michael`, en-us, speed 1.0, through HyperFrames 0.8.94 / kokoro-onnx 0.6.1. `v3-zh-voice.wav` is Edge TTS `zh-CN-YunyangNeural`, edge-tts 7.2.8, normal rate `+0%`. Each is a single continuous read from the approved v3 script, without inserted paragraph padding or time stretching. Durations are 54.181 and 56.304 seconds. Provider/model ownership and the no-voice-cloning statement above still apply.
+
+The 56.000-second English and 58.133-second Mandarin films reuse the first corresponding portion of the same licensed Pixabay track. Each music bed has its own voice-aware carve and fade. The original stock track remains ignored by Git. Caption alignment uses local faster-whisper `base.en` for English and Edge word boundaries for Mandarin. See `../../narration/v3-audio-source.json` for generation settings and hashes, and the repository's `docs/VALIDATION.md` for encoded signal measurements.

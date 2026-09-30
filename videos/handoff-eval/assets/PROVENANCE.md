@@ -17,3 +17,10 @@ Game imagery belongs to the AgentWorld / Kaetram attribution chain. See the root
 - `demo-evidence.json`: selected actual events from run `20260929T031527021009Z-scripted-delayed-request`, plus narration timing. The video uses editorially timed trace overlays, not a frame-synchronized capture of native game telemetry. Resource icons moving between roles represent verified inventory changes; they are not native trade animations.
 - `audio/demo-voice-*.wav`: English Kokoro `am_michael`, speed 1.0. `audio/zh-voice-*.wav`: Mandarin Edge TTS `zh-CN-YunyangNeural` (云扬), normal rate `+0%`; actual timing and synthesis settings recorded in NARRATION.md. Scripts are included.
 - The registry `telemetry-hud` readout structure informed the overlay layout. Its placeholder values and scrambling effects are not used. The reference component remains in `compositions/components/`.
+
+## Continuous narration edition v3
+
+- `audio/v3-en-voice.wav`: one continuous local Kokoro-82M `am_michael` read, en-us, speed 1.0, HyperFrames 0.8.94 / kokoro-onnx 0.6.1. `audio/v3-zh-voice.wav`: one continuous Microsoft Edge `zh-CN-YunyangNeural` read through edge-tts 7.2.8, rate `+0%`, decoded to 24 kHz mono PCM without time stretching. Script and audio hashes are recorded in `../narration/v3-audio-source.json`.
+- `../narration/v3-*-words.json`: English local faster-whisper 1.2.1 / `base.en` alignment; Mandarin provider WordBoundary timing. Captions use approved script text, not uncorrected ASR text.
+- `fonts/noto-sans-sc-v3.ttf`: 41,392-byte Noto Sans SC text subset served by Google Fonts for the current Chinese copy, weight 500. `fonts/noto-sans-sc-v3.source.json` records source URLs; `fonts/NotoSansSC-OFL.txt` preserves the SIL Open Font License. Changes adding Chinese characters require a new subset or a complete font.
+- `game-session.mp4` and item sprites are unchanged. Both editions reuse and crop this recorded footage; trace cards remain editorial overlays, not native telemetry. The recorded 15-run comparison is unchanged.

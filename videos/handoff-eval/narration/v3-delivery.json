@@ -1,0 +1,76 @@
+{
+  "hyperframes": "0.8.94",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "human_listening_review": false,
+  "deliveries": [
+    {
+      "language": "en",
+      "file": "artifacts/agent-handoff-lab-v3-en.mp4",
+      "sha256": "93986a2713b2a6b4aafaa95094b81983df4898615c2a8edb46b083aa2457cf14",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "56.000000"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "56.000000"
+          }
+        ],
+        "format": {
+          "duration": "56.000000",
+          "size": "34545091"
+        }
+      },
+      "integrated_lufs": -19.9,
+      "lra_lu": 1.5,
+      "true_peak_dbfs": -1.5
+    },
+    {
+      "language": "zh",
+      "file": "artifacts/agent-handoff-lab-v3-zh-yunyang.mp4",
+      "sha256": "3961dfc999611b4bcbc8c6b844a5273dc36f8100cb6d6c07c4a058e2cc9a812f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "30/1",
+            "duration": "58.133333"
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "58.133000"
+          }
+        ],
+        "format": {
+          "duration": "58.133333",
+          "size": "36434939"
+        }
+      },
+      "integrated_lufs": -21.2,
+      "lra_lu": 2.4,
+      "true_peak_dbfs": -1.6
+    }
+  ]
+}

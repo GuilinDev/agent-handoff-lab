@@ -1,0 +1,45 @@
+[
+  {
+    "language": "en",
+    "generated_utc_date": "2026-09-29",
+    "provider": "local Kokoro-82M",
+    "voice": "am_michael",
+    "runtime": "HyperFrames 0.8.94 / kokoro-onnx 0.6.1",
+    "rate": "1.0",
+    "continuous_read": true,
+    "time_stretch": false,
+    "voice_start": 0.4,
+    "duration": 54.18066666666667,
+    "alignment": "faster-whisper 1.2.1 / base.en / local CPU int8",
+    "script": "narration/v3-en.txt",
+    "script_sha256": "935128228a9f6fd638a78fab4240074e19f67ea5232d15e58cb75c98f699814f",
+    "audio": "assets/audio/v3-en-voice.wav",
+    "audio_sha256": "4e59cadf694ce20679f6639597bf75f21c563404db6e6a699d53cd99d7b93619",
+    "spoken_spellings": [
+      "Agent World",
+      "L L M"
+    ],
+    "human_listening_review": false
+  },
+  {
+    "language": "zh",
+    "generated_utc_date": "2026-09-29",
+    "provider": "Microsoft Edge online TTS",
+    "voice": "zh-CN-YunyangNeural",
+    "runtime": "edge-tts 7.2.8",
+    "rate": "+0%",
+    "continuous_read": true,
+    "time_stretch": false,
+    "voice_start": 0.4,
+    "duration": 56.304,
+    "alignment": "Edge WordBoundary",
+    "script": "narration/v3-zh.txt",
+    "script_sha256": "574ac28b9b13f88dbfd0a2998564dc9502bfdc774752e8a9bd6bb20b25b77205",
+    "audio": "assets/audio/v3-zh-voice.wav",
+    "audio_sha256": "95a7340821496fee24bb775d8c3a575303c12e40b38ea6150c679ff2ce1d312a",
+    "spoken_spellings": [
+      "Agent World"
+    ],
+    "human_listening_review": false
+  }
+]

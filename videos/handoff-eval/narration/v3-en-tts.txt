@@ -1,0 +1,13 @@
+Does task success mean good teamwork?
+
+I built an Agent World experiment: five scripted roles crafting a pickaxe, an axe, and a sword.
+
+I tested normal delivery, a coal shortage, and that shortage plus a delayed request.
+
+Here's the third case. I deliver five coal instead of ten. The smelter runs out and requests more. I delay that message by three rounds. Once it arrives, the supplier sends the rest, and work resumes.
+
+Five runs per condition, all successful. But average completion takes five rounds normally, versus nine with both disruptions.
+
+My takeaway: evaluate handoffs and recovery alongside success. Traces show what happened; they don't reveal a model's internal reasoning.
+
+This scripted baseline tests the measurement setup. Next, I'll compare L L M policies. Code and traces are linked in the post.

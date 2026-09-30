@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Does task success mean good teamwork?",
+    "start": 0.4,
+    "end": 2.25
+  },
+  {
+    "text": "I built an AgentWorld experiment: five scripted roles crafting a pickaxe, an axe,",
+    "start": 2.92,
+    "end": 7.59
+  },
+  {
+    "text": "and a sword.",
+    "start": 7.6,
+    "end": 8.35
+  },
+  {
+    "text": "I tested normal delivery, a coal shortage, and that shortage plus a delayed request.",
+    "start": 9.02,
+    "end": 13.65
+  },
+  {
+    "text": "Here's the third case.",
+    "start": 14.22,
+    "end": 15.19
+  },
+  {
+    "text": "I deliver five coal instead of ten.",
+    "start": 15.82,
+    "end": 17.63
+  },
+  {
+    "text": "The smelter runs out and requests more.",
+    "start": 18.48,
+    "end": 20.61
+  },
+  {
+    "text": "I delay that message by three rounds.",
+    "start": 21.2,
+    "end": 23.15
+  },
+  {
+    "text": "Once it arrives, the supplier sends the rest, and work resumes.",
+    "start": 23.78,
+    "end": 27.01
+  },
+  {
+    "text": "Five runs per condition, all successful.",
+    "start": 27.02,
+    "end": 30.05
+  },
+  {
+    "text": "But average completion takes five rounds normally, versus nine with both disruptions.",
+    "start": 30.68,
+    "end": 35.41
+  },
+  {
+    "text": "My takeaway: evaluate handoffs and recovery alongside success.",
+    "start": 36.14,
+    "end": 40.67
+  },
+  {
+    "text": "Traces show what happened; they don't reveal a model's internal reasoning.",
+    "start": 40.86,
+    "end": 44.95
+  },
+  {
+    "text": "This scripted baseline tests the measurement setup.",
+    "start": 45.5,
+    "end": 47.97
+  },
+  {
+    "text": "Next, I'll compare LLM policies.",
+    "start": 48.56,
+    "end": 51.43
+  },
+  {
+    "text": "Code and traces are linked in the post.",
+    "start": 52.26,
+    "end": 54.27
+  }
+]

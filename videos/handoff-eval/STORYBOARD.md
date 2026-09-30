@@ -59,3 +59,26 @@ status: built
 src: compositions/demo-result.html
 Rules: stat-bars-and-fills; spring-pop-entrance.
 Beat: comparison and evaluation question, then hold for reading.
+
+## Script revision plan — 2026-09-29
+
+User: “请你审计一下中文配音和英文配音，我听起来觉得没头没尾的”, followed by “是的 先改下中英文脚本”.
+
+The bilingual v3 scripts in `NARRATION.md` and `narration/v3-*.txt` replace the fragmented narration with a continuous argument: task success versus coordination; authorship, scripted roles and the three tools; three comparison conditions; an explicit partial delivery and delayed request; replenishment and recovery; fifteen completed runs with five versus nine mean rounds; behavioral evidence, the next LLM comparison, and the open-source link.
+
+Status at script review: draft only, with a rough 60–70 second allowance. Production was subsequently authorized; actual timing is below.
+
+## Delivered v3 — measured narration timing
+
+Six built scenes per language, with a separate subtitle composition. Files are `compositions/v3-{en,zh}-{scene}.html`; `narration/v3-timing.json` contains exact timing. Main entry is English; `variants/index-zh.html` is Mandarin. Each scene uses spring-pop-entrance for evidence cards; results also use stat-bars-and-fills. Long reading holds are intentional over moving footage.
+
+| Scene | English (s) | Mandarin (s) | Beat / source |
+|---|---|---|---|
+| team | 0–9.020 | 0–10.900 | Question, fixed-policy setup, pickaxe/axe/sword targets |
+| conditions | 9.020–14.220 | 10.900–18.012 | Normal; half coal; half coal plus delayed request |
+| replay | 14.220–27.020 | 18.012–30.887 | Short delivery → empty inventory → held request → refill → resumed work; actual saved trace |
+| results | 27.020–36.140 | 30.887–39.075 | 5.0 / 7.2 / 9.0 rounds; five runs each; cooldown caveat |
+| insight | 36.140–45.500 | 39.075–48.975 | Handoffs and recovery; observable behavior versus internal reasoning |
+| close | 45.500–56.000 | 48.975–58.133 | Measurement baseline, next LLM policies, public repo URL |
+
+Rules used: `hyperframes-animation/rules/spring-pop-entrance.md` and `hyperframes-animation/rules/stat-bars-and-fills.md`. Source game pixels are reused from the existing recording. The intervention replay is editorial evidence, not native live telemetry. Subtitle timing comes from the continuous reads, without new narration padding.

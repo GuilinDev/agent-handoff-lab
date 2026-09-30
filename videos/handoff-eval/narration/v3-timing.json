@@ -1,0 +1,152 @@
+[
+  {
+    "language": "en",
+    "duration": 56.0,
+    "voice_start": 0.4,
+    "voice_duration": 54.18066666666667,
+    "voice_end": 54.580666666666666,
+    "alignment_coverage": 0.9954,
+    "scene_cuts": [
+      0,
+      9.02,
+      14.22,
+      27.02,
+      36.14,
+      45.5,
+      56.0
+    ],
+    "scenes": [
+      {
+        "language": "en",
+        "scene": "team",
+        "start": 0,
+        "end": 9.02,
+        "duration": 9.02
+      },
+      {
+        "language": "en",
+        "scene": "conditions",
+        "start": 9.02,
+        "end": 14.22,
+        "duration": 5.2
+      },
+      {
+        "language": "en",
+        "scene": "replay-states",
+        "times": [
+          14.22,
+          18.48,
+          21.2,
+          23.78,
+          26.32,
+          27.02
+        ]
+      },
+      {
+        "language": "en",
+        "scene": "replay",
+        "start": 14.22,
+        "end": 27.02,
+        "duration": 12.8
+      },
+      {
+        "language": "en",
+        "scene": "results",
+        "start": 27.02,
+        "end": 36.14,
+        "duration": 9.12
+      },
+      {
+        "language": "en",
+        "scene": "insight",
+        "start": 36.14,
+        "end": 45.5,
+        "duration": 9.36
+      },
+      {
+        "language": "en",
+        "scene": "close",
+        "start": 45.5,
+        "end": 56.0,
+        "duration": 10.5
+      }
+    ],
+    "caption_count": 16,
+    "gameplay_seconds": 46.88
+  },
+  {
+    "language": "zh",
+    "duration": 58.13333333333333,
+    "voice_start": 0.4,
+    "voice_duration": 56.304,
+    "voice_end": 56.704,
+    "alignment_coverage": 1.0,
+    "scene_cuts": [
+      0,
+      10.9,
+      18.0125,
+      30.8875,
+      39.074999999999996,
+      48.975,
+      58.13333333333333
+    ],
+    "scenes": [
+      {
+        "language": "zh",
+        "scene": "team",
+        "start": 0,
+        "end": 10.9,
+        "duration": 10.9
+      },
+      {
+        "language": "zh",
+        "scene": "conditions",
+        "start": 10.9,
+        "end": 18.012,
+        "duration": 7.112
+      },
+      {
+        "language": "zh",
+        "scene": "replay-states",
+        "times": [
+          18.012,
+          21.787,
+          23.812,
+          26.337,
+          29.075,
+          30.887
+        ]
+      },
+      {
+        "language": "zh",
+        "scene": "replay",
+        "start": 18.012,
+        "end": 30.887,
+        "duration": 12.875
+      },
+      {
+        "language": "zh",
+        "scene": "results",
+        "start": 30.887,
+        "end": 39.075,
+        "duration": 8.187
+      },
+      {
+        "language": "zh",
+        "scene": "insight",
+        "start": 39.075,
+        "end": 48.975,
+        "duration": 9.9
+      },
+      {
+        "language": "zh",
+        "scene": "close",
+        "start": 48.975,
+        "end": 58.133,
+        "duration": 9.158
+      }
+    ],
+    "caption_count": 14,
+    "gameplay_seconds": 49.946
+  }
+]

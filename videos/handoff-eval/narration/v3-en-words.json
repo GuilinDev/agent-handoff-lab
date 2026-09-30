@@ -1,0 +1,652 @@
+[
+  {
+    "text": "Does",
+    "start": 0.0,
+    "end": 0.12
+  },
+  {
+    "text": "task",
+    "start": 0.12,
+    "end": 0.3
+  },
+  {
+    "text": "success",
+    "start": 0.3,
+    "end": 0.76
+  },
+  {
+    "text": "mean",
+    "start": 0.76,
+    "end": 1.14
+  },
+  {
+    "text": "good",
+    "start": 1.14,
+    "end": 1.4
+  },
+  {
+    "text": "teamwork?",
+    "start": 1.4,
+    "end": 1.7
+  },
+  {
+    "text": "I",
+    "start": 2.52,
+    "end": 2.58
+  },
+  {
+    "text": "built",
+    "start": 2.58,
+    "end": 2.78
+  },
+  {
+    "text": "an",
+    "start": 2.78,
+    "end": 2.96
+  },
+  {
+    "text": "agent",
+    "start": 2.96,
+    "end": 3.22
+  },
+  {
+    "text": "world",
+    "start": 3.22,
+    "end": 3.54
+  },
+  {
+    "text": "experiment,",
+    "start": 3.54,
+    "end": 4.06
+  },
+  {
+    "text": "five",
+    "start": 4.52,
+    "end": 4.78
+  },
+  {
+    "text": "scripted",
+    "start": 4.78,
+    "end": 5.16
+  },
+  {
+    "text": "roles",
+    "start": 5.16,
+    "end": 5.56
+  },
+  {
+    "text": "crafting",
+    "start": 5.56,
+    "end": 6.02
+  },
+  {
+    "text": "a",
+    "start": 6.02,
+    "end": 6.28
+  },
+  {
+    "text": "pickaxe",
+    "start": 6.28,
+    "end": 6.7
+  },
+  {
+    "text": "and",
+    "start": 6.7,
+    "end": 6.94
+  },
+  {
+    "text": "axe",
+    "start": 6.94,
+    "end": 7.2
+  },
+  {
+    "text": "and",
+    "start": 7.2,
+    "end": 7.5
+  },
+  {
+    "text": "a",
+    "start": 7.5,
+    "end": 7.58
+  },
+  {
+    "text": "sword.",
+    "start": 7.58,
+    "end": 7.8
+  },
+  {
+    "text": "I",
+    "start": 8.62,
+    "end": 8.66
+  },
+  {
+    "text": "tested",
+    "start": 8.66,
+    "end": 8.9
+  },
+  {
+    "text": "normal",
+    "start": 8.9,
+    "end": 9.28
+  },
+  {
+    "text": "delivery,",
+    "start": 9.28,
+    "end": 9.8
+  },
+  {
+    "text": "a",
+    "start": 10.16,
+    "end": 10.2
+  },
+  {
+    "text": "coal",
+    "start": 10.2,
+    "end": 10.44
+  },
+  {
+    "text": "shortage,",
+    "start": 10.44,
+    "end": 10.78
+  },
+  {
+    "text": "and",
+    "start": 11.24,
+    "end": 11.28
+  },
+  {
+    "text": "that",
+    "start": 11.28,
+    "end": 11.46
+  },
+  {
+    "text": "shortage",
+    "start": 11.46,
+    "end": 11.72
+  },
+  {
+    "text": "plus",
+    "start": 11.72,
+    "end": 12.24
+  },
+  {
+    "text": "a",
+    "start": 12.24,
+    "end": 12.42
+  },
+  {
+    "text": "delayed",
+    "start": 12.42,
+    "end": 12.64
+  },
+  {
+    "text": "request.",
+    "start": 12.64,
+    "end": 13.1
+  },
+  {
+    "text": "Here's",
+    "start": 13.82,
+    "end": 14.02
+  },
+  {
+    "text": "the",
+    "start": 14.02,
+    "end": 14.14
+  },
+  {
+    "text": "third",
+    "start": 14.14,
+    "end": 14.32
+  },
+  {
+    "text": "case.",
+    "start": 14.32,
+    "end": 14.64
+  },
+  {
+    "text": "I",
+    "start": 15.42,
+    "end": 15.44
+  },
+  {
+    "text": "deliver",
+    "start": 15.44,
+    "end": 15.6
+  },
+  {
+    "text": "five",
+    "start": 15.6,
+    "end": 16.14
+  },
+  {
+    "text": "coal",
+    "start": 16.14,
+    "end": 16.4
+  },
+  {
+    "text": "instead",
+    "start": 16.4,
+    "end": 16.92
+  },
+  {
+    "text": "of",
+    "start": 16.92,
+    "end": 17.08
+  },
+  {
+    "text": "10.",
+    "start": 17.08,
+    "end": 17.32
+  },
+  {
+    "text": "The",
+    "start": 18.08,
+    "end": 18.1
+  },
+  {
+    "text": "smelter",
+    "start": 18.1,
+    "end": 18.54
+  },
+  {
+    "text": "runs",
+    "start": 18.54,
+    "end": 18.8
+  },
+  {
+    "text": "out",
+    "start": 18.8,
+    "end": 19.16
+  },
+  {
+    "text": "and",
+    "start": 19.16,
+    "end": 19.32
+  },
+  {
+    "text": "requests",
+    "start": 19.32,
+    "end": 19.62
+  },
+  {
+    "text": "more.",
+    "start": 19.62,
+    "end": 20.06
+  },
+  {
+    "text": "I",
+    "start": 20.8,
+    "end": 20.82
+  },
+  {
+    "text": "delay",
+    "start": 20.82,
+    "end": 20.98
+  },
+  {
+    "text": "that",
+    "start": 20.98,
+    "end": 21.32
+  },
+  {
+    "text": "message",
+    "start": 21.32,
+    "end": 21.72
+  },
+  {
+    "text": "by",
+    "start": 21.72,
+    "end": 22.0
+  },
+  {
+    "text": "three",
+    "start": 22.0,
+    "end": 22.3
+  },
+  {
+    "text": "rounds.",
+    "start": 22.3,
+    "end": 22.6
+  },
+  {
+    "text": "Once",
+    "start": 23.38,
+    "end": 23.6
+  },
+  {
+    "text": "it",
+    "start": 23.6,
+    "end": 23.74
+  },
+  {
+    "text": "arrives,",
+    "start": 23.74,
+    "end": 24.04
+  },
+  {
+    "text": "the",
+    "start": 24.46,
+    "end": 24.52
+  },
+  {
+    "text": "supplier",
+    "start": 24.52,
+    "end": 24.78
+  },
+  {
+    "text": "sends",
+    "start": 24.78,
+    "end": 25.28
+  },
+  {
+    "text": "the",
+    "start": 25.28,
+    "end": 25.58
+  },
+  {
+    "text": "rest",
+    "start": 25.58,
+    "end": 25.78
+  },
+  {
+    "text": "and",
+    "start": 25.78,
+    "end": 26.14
+  },
+  {
+    "text": "work",
+    "start": 26.14,
+    "end": 26.32
+  },
+  {
+    "text": "resumes.",
+    "start": 26.32,
+    "end": 26.62
+  },
+  {
+    "text": "Five",
+    "start": 26.62,
+    "end": 27.68
+  },
+  {
+    "text": "runs",
+    "start": 27.68,
+    "end": 28.0
+  },
+  {
+    "text": "per",
+    "start": 28.0,
+    "end": 28.3
+  },
+  {
+    "text": "condition",
+    "start": 28.3,
+    "end": 28.64
+  },
+  {
+    "text": "all",
+    "start": 28.64,
+    "end": 29.02
+  },
+  {
+    "text": "successful,",
+    "start": 29.02,
+    "end": 29.5
+  },
+  {
+    "text": "but",
+    "start": 30.28,
+    "end": 30.38
+  },
+  {
+    "text": "average",
+    "start": 30.38,
+    "end": 30.62
+  },
+  {
+    "text": "completion",
+    "start": 30.62,
+    "end": 31.02
+  },
+  {
+    "text": "takes",
+    "start": 31.02,
+    "end": 31.6
+  },
+  {
+    "text": "five",
+    "start": 31.6,
+    "end": 32.06
+  },
+  {
+    "text": "rounds",
+    "start": 32.06,
+    "end": 32.34
+  },
+  {
+    "text": "normally",
+    "start": 32.34,
+    "end": 32.92
+  },
+  {
+    "text": "versus",
+    "start": 32.92,
+    "end": 33.44
+  },
+  {
+    "text": "nine",
+    "start": 33.44,
+    "end": 33.88
+  },
+  {
+    "text": "with",
+    "start": 33.88,
+    "end": 34.16
+  },
+  {
+    "text": "both",
+    "start": 34.16,
+    "end": 34.36
+  },
+  {
+    "text": "disruptions.",
+    "start": 34.36,
+    "end": 34.86
+  },
+  {
+    "text": "My",
+    "start": 35.74,
+    "end": 35.88
+  },
+  {
+    "text": "takeaway,",
+    "start": 35.88,
+    "end": 36.2
+  },
+  {
+    "text": "evaluate",
+    "start": 36.74,
+    "end": 37.28
+  },
+  {
+    "text": "handoffs",
+    "start": 37.28,
+    "end": 37.88
+  },
+  {
+    "text": "and",
+    "start": 37.88,
+    "end": 38.12
+  },
+  {
+    "text": "recovery",
+    "start": 38.12,
+    "end": 38.46
+  },
+  {
+    "text": "alongside",
+    "start": 38.46,
+    "end": 39.08
+  },
+  {
+    "text": "success.",
+    "start": 39.08,
+    "end": 40.12
+  },
+  {
+    "text": "Traces",
+    "start": 40.46,
+    "end": 40.88
+  },
+  {
+    "text": "show",
+    "start": 40.88,
+    "end": 41.16
+  },
+  {
+    "text": "what",
+    "start": 41.16,
+    "end": 41.42
+  },
+  {
+    "text": "happened.",
+    "start": 41.42,
+    "end": 41.78
+  },
+  {
+    "text": "They",
+    "start": 42.2,
+    "end": 42.3
+  },
+  {
+    "text": "don't",
+    "start": 42.3,
+    "end": 42.48
+  },
+  {
+    "text": "reveal",
+    "start": 42.48,
+    "end": 42.74
+  },
+  {
+    "text": "a",
+    "start": 42.74,
+    "end": 43.0
+  },
+  {
+    "text": "model's",
+    "start": 43.0,
+    "end": 43.52
+  },
+  {
+    "text": "internal",
+    "start": 43.52,
+    "end": 43.82
+  },
+  {
+    "text": "reasoning.",
+    "start": 43.82,
+    "end": 44.4
+  },
+  {
+    "text": "This",
+    "start": 45.1,
+    "end": 45.18
+  },
+  {
+    "text": "scripted",
+    "start": 45.18,
+    "end": 45.5
+  },
+  {
+    "text": "baseline",
+    "start": 45.5,
+    "end": 45.86
+  },
+  {
+    "text": "tests",
+    "start": 45.86,
+    "end": 46.46
+  },
+  {
+    "text": "the",
+    "start": 46.46,
+    "end": 46.78
+  },
+  {
+    "text": "measurement",
+    "start": 46.78,
+    "end": 47.06
+  },
+  {
+    "text": "setup.",
+    "start": 47.06,
+    "end": 47.42
+  },
+  {
+    "text": "Next,",
+    "start": 48.16,
+    "end": 48.3
+  },
+  {
+    "text": "I'll",
+    "start": 48.9,
+    "end": 49.04
+  },
+  {
+    "text": "compare",
+    "start": 49.04,
+    "end": 49.36
+  },
+  {
+    "text": "LLM",
+    "start": 49.36,
+    "end": 50.42
+  },
+  {
+    "text": "policies.",
+    "start": 50.42,
+    "end": 50.88
+  },
+  {
+    "text": "Code",
+    "start": 51.86,
+    "end": 51.92
+  },
+  {
+    "text": "and",
+    "start": 51.92,
+    "end": 52.2
+  },
+  {
+    "text": "traces",
+    "start": 52.2,
+    "end": 52.46
+  },
+  {
+    "text": "are",
+    "start": 52.46,
+    "end": 52.92
+  },
+  {
+    "text": "linked",
+    "start": 52.92,
+    "end": 53.12
+  },
+  {
+    "text": "in",
+    "start": 53.12,
+    "end": 53.42
+  },
+  {
+    "text": "the",
+    "start": 53.42,
+    "end": 53.54
+  },
+  {
+    "text": "post.",
+    "start": 53.54,
+    "end": 53.72
+  }
+]

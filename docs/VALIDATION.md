@@ -59,3 +59,25 @@ The current Chinese deliverable is `artifacts/agent-handoff-lab-v2-zh-yunyang.mp
 - Background Studio preview returned HTTP 200 at `http://localhost:3004`.
 
 Yunyang video SHA-256: `dce34dac1c44a5ee00d0e45d623e8e849f07caef86722b9472bc8be562434405`.
+
+## Continuous bilingual narration v3 — 2026-09-29
+
+- HyperFrames CLI and project core are pinned to 0.8.94. Existing compositions passed the upgrade check. New reads are continuous: English Kokoro am_michael at speed 1.0 and Mandarin Edge Yunyang at +0%. No artificial inter-paragraph padding or time stretching was used. Voice ends at 54.581 / 56.704 seconds, safely inside the 56.000 / 58.133-second edits.
+- Complete script coverage is verified in the subtitle data: 16 EN and 14 ZH cues, ordered and non-overlapping. English alignment used local faster-whisper base.en after HyperFrames transcription was unavailable; displayed text uses approved copy. Mandarin uses provider WordBoundary timing. Audio settings and hashes are in `videos/handoff-eval/narration/v3-audio-source.json`; per-language SRT files are included.
+- HyperFrames checks: zero lint/runtime/layout/motion/contrast errors or warnings in both languages. Five EN and three ZH informational layout findings concern chart-label/ancestor bounding boxes. Final intervention-card checks at EN 16/22 seconds and ZH 20/25 seconds also passed with no findings. Chinese was checked in a real copied project directory because Windows junction-based QA sometimes skipped nested files.
+- Selected scene snapshots and encoded frames were visually reviewed for text, Mandarin glyph coverage, subtitle placement, game footage and the repo end card. The pickaxe panel cites actual event 10; the message card uses words from event 19. The result chart preserves all three means and the cooldown caveat. Full narration and captions are new; recorded game pixels and experiment results are unchanged.
+- Animation-map wrapper flags were reviewed: seven state wrappers have zero-height parent bounds because their visible children are absolutely positioned; the rendered children remain on screen. Reading holds over gameplay are intentional. These diagnostic flags are not described as a clean animation-map result.
+- Both final delivery renders passed `--strict-all` at 30 fps using hardware GPU / drawElement capture. Each contains H.264 1920×1080 video and stereo AAC at 48 kHz. English audio and video are exactly 56 seconds; Mandarin video is 58.133333 seconds and audio 58.133 seconds (sub-frame rounding). No narration is cut off.
+- Signal measurements below are automated checks, not human listening review. The integrated level difference is 1.3 LU. Source WAVs, subtitle timing and picture timing remain independently editable; background music has a separate voice carve per language.
+- Background Studio preview returned HTTP 200 at `http://localhost:3004`. Python helper sources parse; subtitle coverage/order checks and `git diff --check` pass. Engine code did not change, so the earlier engine suite was not rerun. LinkedIn text is still a draft.
+
+| Edition | File bytes | Integrated LUFS | LRA (LU) | True peak (dBFS) |
+|---|---:|---:|---:|---:|
+| EN | 34,545,091 | -19.9 | 1.5 | -1.5 |
+| ZH | 36,434,939 | -21.2 | 2.4 | -1.6 |
+
+EN v3 SHA-256: `93986a2713b2a6b4aafaa95094b81983df4898615c2a8edb46b083aa2457cf14`.
+
+ZH v3 SHA-256: `3961dfc999611b4bcbc8c6b844a5273dc36f8100cb6d6c07c4a058e2cc9a812f`.
+
+Machine-readable delivery metadata: `videos/handoff-eval/narration/v3-delivery.json`. Older local MP4s are preserved.

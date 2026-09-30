@@ -14,7 +14,7 @@ A small, inspectable team-evaluation workbench built on the real [AgentWorld](ht
 - Three conditions: normal delivery, partial coal delivery, and partial delivery with delayed coordination messages.
 - Actual before/after inventory snapshots, replay controls, error inspection, downloadable JSON, and comparison of repeated runs.
 - A verifier that requires newly crafted outputs **and** corresponding material consumption; initial inventory and agent self-reports cannot pass it.
-- A 50-second HyperFrames video: 42 seconds of real game footage with verified trace overlays, followed by measured results. English and Chinese AI narration editions are provided locally.
+- Bilingual HyperFrames videos with continuous AI narration and matching subtitles: 56 seconds English / 58 seconds Mandarin, including about 47 / 50 seconds of edited real gameplay with trace overlays.
 - [Experimental method and limits](docs/METHODS.md), [LinkedIn draft](docs/LINKEDIN.md), and [中文上手说明](docs/QUICKSTART.zh-CN.md).
 
 ## Run locally
@@ -90,16 +90,18 @@ Source: [`videos/handoff-eval/`](videos/handoff-eval/). Local footage, item spri
 cd videos/handoff-eval
 npm ci
 npm run check
-npx --yes hyperframes@0.8.91 preview --background
-npm run render -- --quality delivery --output ../../artifacts/agent-handoff-lab-v2-en.mp4
-npx --yes hyperframes@0.8.91 render -c variants/index-zh.html --quality delivery --output ../../artifacts/agent-handoff-lab-v2-zh-yunyang.mp4
+npx --yes hyperframes@0.8.94 preview --background
+npm run render -- --quality delivery --fps 30 --strict-all --output ../../artifacts/agent-handoff-lab-v3-en.mp4
+npx --yes hyperframes@0.8.94 render -c variants/index-zh.html --quality delivery --fps 30 --strict-all --output ../../artifacts/agent-handoff-lab-v3-zh-yunyang.mp4
 ```
 
-Local delivery files are `artifacts/agent-handoff-lab-v2-en.mp4` and `artifacts/agent-handoff-lab-v2-zh-yunyang.mp4`. The Chinese edition uses Edge TTS Mandarin 云扬 (`zh-CN-YunyangNeural`), at normal speech rate. Both use the same 50-second picture edit with English on-screen labels. The previous `agent-handoff-lab-v1-audio.mp4` and silent `agent-handoff-lab-v1.mp4` are preserved. Encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline. Narration scripts and measured timings are in [NARRATION.md](videos/handoff-eval/NARRATION.md).
+Current local delivery files are `artifacts/agent-handoff-lab-v3-en.mp4` (56.000 seconds) and `artifacts/agent-handoff-lab-v3-zh-yunyang.mp4` (58.133 seconds). English uses local Kokoro `am_michael`; Mandarin uses Edge TTS 云扬 (`zh-CN-YunyangNeural`) at normal speech rate. Each is a continuous read with its own scene timing and complete matching subtitles; evidence labels remain English. The v1/v2 files are preserved locally. Encoded deliverables are not tracked in Git. All onscreen results explicitly say scripted baseline. Scripts, SRT captions and measured timings are in [NARRATION.md](videos/handoff-eval/NARRATION.md) and its `narration/` folder.
 
 The moving resource icons, inventory panels, and focus boxes are **editorial trace overlays**, generated from the saved run; they are not native game trading animations or a recording of LLM reasoning. This fixture prepositions the characters and supplies materials. No new navigation or gathering capability is implied by the edit.
 
-`scripts/build-gameplay-video.py` bakes the selected engine events and measured suite into the scene source. To regenerate Mandarin speech, install `edge-tts==7.2.8` in a local Python environment, then run `scripts/generate-chinese-voiceover.py` (network access required). `scripts/build-chinese-voiceover.py` creates the alternate audio entrypoint. After changing scripts/timing and rebuilding, re-run the HyperFrames voiceover carve separately for each language, then check and render. The carve helper resolves media relative to its HTML file: for Chinese, copy `variants/index-zh.html` to a temporary HTML file in the project root, run the helper on that copy, then move it back to `variants/index-zh.html` before checking. HyperFrames render resolves the variant’s assets from the project root. Keep only one root entrypoint so preview does not discover duplicate audio. Normal re-renders of the checked-in compositions need no rebuilding or TTS runtime.
+Normal re-renders of the checked-in compositions need no rebuilding or TTS runtime. To revise v3, use `python scripts/generate-v3-narration.py en` or `zh` from the repository root, then `python scripts/build-v3-video.py`. The generation environment needs HyperFrames' Kokoro dependencies plus `faster-whisper==1.2.1` for English, or `edge-tts==7.2.8` for Mandarin. Mandarin requires the online Edge service; initial English model/tool downloads also require network access. English alignment uses local `base.en` ASR; Mandarin uses provider word boundaries. The builder reads saved evidence, generates both picture edits and captions, and resets audio processing to its base settings.
+
+After rebuilding, re-run the HyperFrames voiceover carve separately for each language, then check and render. The carve helper resolves media relative to its HTML file: for Chinese, copy `variants/index-zh.html` to a temporary HTML file in the project root, run the helper on that copy, then move it back to `variants/index-zh.html` before checking. HyperFrames render resolves the variant's assets from the project root. Keep only one root entrypoint so preview does not discover duplicate audio. The older `build-gameplay-video.py`, `generate-chinese-voiceover.py`, and `build-chinese-voiceover.py` describe v2 and should not be used to rebuild v3.
 
 ## Project boundaries
 

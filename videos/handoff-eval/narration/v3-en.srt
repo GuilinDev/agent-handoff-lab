@@ -1,0 +1,63 @@
+1
+00:00:00,400 --> 00:00:02,250
+Does task success mean good teamwork?
+
+2
+00:00:02,920 --> 00:00:07,590
+I built an AgentWorld experiment: five scripted roles crafting a pickaxe, an axe,
+
+3
+00:00:07,600 --> 00:00:08,350
+and a sword.
+
+4
+00:00:09,020 --> 00:00:13,650
+I tested normal delivery, a coal shortage, and that shortage plus a delayed request.
+
+5
+00:00:14,220 --> 00:00:15,190
+Here's the third case.
+
+6
+00:00:15,820 --> 00:00:17,630
+I deliver five coal instead of ten.
+
+7
+00:00:18,480 --> 00:00:20,610
+The smelter runs out and requests more.
+
+8
+00:00:21,200 --> 00:00:23,150
+I delay that message by three rounds.
+
+9
+00:00:23,780 --> 00:00:27,010
+Once it arrives, the supplier sends the rest, and work resumes.
+
+10
+00:00:27,020 --> 00:00:30,050
+Five runs per condition, all successful.
+
+11
+00:00:30,680 --> 00:00:35,410
+But average completion takes five rounds normally, versus nine with both disruptions.
+
+12
+00:00:36,140 --> 00:00:40,670
+My takeaway: evaluate handoffs and recovery alongside success.
+
+13
+00:00:40,860 --> 00:00:44,950
+Traces show what happened; they don't reveal a model's internal reasoning.
+
+14
+00:00:45,500 --> 00:00:47,970
+This scripted baseline tests the measurement setup.
+
+15
+00:00:48,560 --> 00:00:51,430
+Next, I'll compare LLM policies.
+
+16
+00:00:52,260 --> 00:00:54,270
+Code and traces are linked in the post.

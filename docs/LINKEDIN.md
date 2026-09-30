@@ -1,6 +1,6 @@
 # LinkedIn draft — gameplay edition
 
-Draft only. Nothing has been posted. Pair the text below with the 50-second English gameplay video. A Chinese AI voiceover edition is also supplied. The repository is public; its link is included below.
+Draft only. Nothing has been posted. Pair the text below with `artifacts/agent-handoff-lab-v3-en.mp4`, the 56-second English video with complete captions. A 58-second Yunyang Mandarin version is also supplied. Both now explain the setup, intervention, refill, result and evaluation viewpoint in one continuous read. The repository is public; its link is included below.
 
 ---
 
